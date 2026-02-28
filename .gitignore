@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# aeon dataset cache
+~/.aeon/
+
+# Generated results (commit the folder structure, not the output files)
+experiments/*/results/*.png
+experiments/*/results/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Stray files from malformed pip install commands (e.g. pip install pkg =1.0)
+=*
+
+# Large installer binaries
+Anaconda3*.sh
+*.sh.part
